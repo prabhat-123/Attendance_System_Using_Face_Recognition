@@ -81,11 +81,21 @@ For installing virtual environment on Anaconda Prompt(Windows):
 ##### ii) After creating a virtual environment in a working directory, you need to activate the virtual environment:
 
    Window Users:
+   
+    On Visual Studio Code:
  
        venv\Scripts\activate
        
- This command will activate the virtual environment on the working directory.
  
+ # Recommended
+   On Anaconda Prompt (Windows):
+  
+   conda activate "your virtual environment name"
+   
+   e.g 
+   
+   condA activate facialrecognition
+   
 
 Now you need to install all the requirements and dependencies for running this project.
 
