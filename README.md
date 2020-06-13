@@ -129,5 +129,5 @@ For installing virtual environment on Anaconda Prompt(Windows):
 ###### After running detect.py, the script will open the web camera and load the retinaface detector pretrained weights. The user is asked to input their name... Input your name and the script will capture your 100 images and store the images in dataset/name folder.
 
 ## The output will look like this:
-[![SC2 Video](doc/SC2_youtube.gif)](https://www.youtube.com/watch?v=0AnN6nQ6QMg)
+[![SC2 Video](face_detector.gif)](https://www.youtube.com/watch?v=0AnN6nQ6QMg)
            
