@@ -131,3 +131,25 @@ For installing virtual environment on Anaconda Prompt(Windows):
 ## The output will look like this:
 [![Video](face_detector.gif)](https://www.youtube.com/watch?v=0AnN6nQ6QMg)
            
+
+#### vii) Then again goto the main directory by using the command:
+           
+           cd .. 
+           (two times)
+           
+ #### viii) Now after the face has been detected and the output has been stored in dataset/input_name folder now extract the embeddings for the face by running the following command:
+ 
+              python extractEmbeddings.py
+              
+###### Note: This will take some time to extract the embeddings of your dataset..
+
+#### ix) Train the model(after extracting embeddings) by running the following command:
+
+              python trainModel.py
+  
+ #### x) After training the model, finally use the trained models to recognize the face (who you are?) by running the command:
+ 
+              python recognize.py
+              
+              
+#### Output Demo: 
