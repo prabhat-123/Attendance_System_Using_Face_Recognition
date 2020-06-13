@@ -1,0 +1,24 @@
+import torch error 
+conda install pytorch torchvision cudatoolkit=10.1 -c pytorch
+
+import sklearn error
+pip install sklearn
+
+
+pip install matplotlib
+
+pip install opencv-contrib-python
+
+
+pip install requests
+
+pip install imutils
+
+pip install tqdm
+
+pip install facenet_pytorch
+
+pip install sklearn
+
+
+
