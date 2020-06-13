@@ -40,7 +40,7 @@ On MacOS or Linux:
   
       py -m pip install --user virtualenv
      
-     
+## Recommended
 For installing virtual environment on Anaconda Prompt(Windows):
 
 
@@ -70,7 +70,7 @@ For installing virtual environment on Anaconda Prompt(Windows):
      On Linux or Mac:
      python3 -m venv venv
      
-     #Recommended
+# Recommended
      On Anaconda Prompt (Windows)
      
      conda create -n "your virtual environment name" python=3.6 (The code is tested and implemented in 3.6 so install python 3.6)
