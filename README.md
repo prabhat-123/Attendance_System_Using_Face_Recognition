@@ -4,7 +4,7 @@
 
 ### 1.  Download the repository on your local computer.
 
-https://github.com/prabhat-123/Nepalese_stock_data_scraping.git
+https://github.com/prabhat-123/Attendance_System_Using_Face_Recognition.git
 
 
 ### 2. After downloading, you have to open Command prompt/Anaconda prompt/Visual studio terminal to run this project.
