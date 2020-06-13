@@ -41,7 +41,7 @@ On MacOS or Linux:
       py -m pip install --user virtualenv
      
      
-For installing virtual environment on Anaconda Prompt:
+For installing virtual environment on Anaconda Prompt(Windows):
 
 
        conda install -c anaconda virtualenv
@@ -54,12 +54,12 @@ For installing virtual environment on Anaconda Prompt:
   
   
         cd /*location to the repository */
-        e.g cd E:/sharemarket_project (location to the repository in local computer)
+        e.g cd E:/Attendance_system_using_face_recognition/ (location to the repository in local computer)
   
   
   After changing the working directory to the current repository/project create a virtual environment by using the following commands:
      On Windows:
-     
+    For Visual Studio Code Users
      
      python -m venv venv 
      
@@ -69,6 +69,14 @@ For installing virtual environment on Anaconda Prompt:
      
      On Linux or Mac:
      python3 -m venv venv
+     
+     #Recommended
+     On Anaconda Prompt (Windows)
+     
+     conda create -n "your virtual environment name" python=3.6 (The code is tested and implemented in 3.6 so install python 3.6)
+     e.g.
+     
+     conda create -n facialrecognition python=3.6
      
 ##### ii) After creating a virtual environment in a working directory, you need to activate the virtual environment:
 
