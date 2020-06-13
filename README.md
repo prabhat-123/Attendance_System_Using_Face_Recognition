@@ -57,7 +57,7 @@ For installing virtual environment on Anaconda Prompt(Windows):
         e.g cd E:/Attendance_system_using_face_recognition/ (location to the repository in local computer)
   
   
-  After changing the working directory to the current repository/project create a virtual environment by using the following commands:
+  #### iii) After changing the working directory to the current repository/project create a virtual environment by using the following commands:
      On Windows:
     For Visual Studio Code Users
      
@@ -78,7 +78,7 @@ For installing virtual environment on Anaconda Prompt(Windows):
      
      conda create -n facialrecognition python=3.6
      
-##### ii) After creating a virtual environment in a working directory, you need to activate the virtual environment:
+##### iv) After creating a virtual environment in a working directory, you need to activate the virtual environment:
 
    Window Users:
    
@@ -97,25 +97,36 @@ For installing virtual environment on Anaconda Prompt(Windows):
      condA activate facialrecognition
    
 
-Now you need to install all the requirements and dependencies for running this project.
+#### v) Now you need to install all the requirements and dependencies for running this project.
 
 
-  Install the dependencies by seeing the requirements.txt file.
+  ###### Install the dependencies by seeing the install_requirements.txt file.
   
-    pip install numpy (for install numpy)
-    
-    pip install pandas (for installing pandas)
-    
-    pip install requests (for sending HTTP Request to server)
-    
-    pip install beautifulsoup4 (a scrapping library)
-    
-    pip install django
-    
-Check other dependenices on requirements.txt and install it. 
+### Note: The project will not work if the version of python is different. And try installing all the dependencies by following the above instructions if it does not work.
 
-Shortcut to download all the dependencies:
+#### vi) After installation change the working directory to models/retinaface by using the following command:
+          
+           cd models/retinaface
+           
+           Then run the following commands to execute each script in the following                  order:
+           
+           python box_utils.py
+           
+           python config.py
+           
+           python mobilev1.py
+           
+           python prior_box.py
+           
+           python py_cpu_nms.py
+           
+           python retinaface.py
+           
+           And finally run the face detection model by running:
+           
+           python detect.py
+           
+###### After running detect.py, the script will open the web camera and load the retinaface detector pretrained weights. The user is asked to input their name... Input your name and the script will capture your 100 images and store the images in dataset/name folder.
 
-  pip install -r requirements.txt
-  
-It will download all the requirements listed in requirements.txt. But the project will not work if the version of python is different. And try installing all the dependencies by following the above instructions if it does not work.
+## The output will look like this:
+           
