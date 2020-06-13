@@ -92,7 +92,7 @@ For installing virtual environment on Anaconda Prompt(Windows):
   
      conda activate "your virtual environment name"
    
-   e.g 
+     e.g 
    
      condA activate facialrecognition
    
