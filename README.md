@@ -90,11 +90,11 @@ For installing virtual environment on Anaconda Prompt(Windows):
  # Recommended
    On Anaconda Prompt (Windows):
   
-   conda activate "your virtual environment name"
+     conda activate "your virtual environment name"
    
    e.g 
    
-   condA activate facialrecognition
+     condA activate facialrecognition
    
 
 Now you need to install all the requirements and dependencies for running this project.
