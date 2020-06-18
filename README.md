@@ -153,3 +153,4 @@ For installing virtual environment on Anaconda Prompt(Windows):
               
               
 #### Output Demo: 
+[![Video](face_detector.gif)](https://www.youtube.com/watch?v=0AnN6nQ6QMg)
