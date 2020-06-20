@@ -84,14 +84,14 @@ For installing virtual environment on Anaconda Prompt(Windows):
      
 ##### iv) After creating a virtual environment in a working directory, you need to activate the virtual environment:
 
-   Window Users:
+ ### On Windows:
    
     On Visual Studio Code:
  
        venv\Scripts\activate
        
  
- ### Recommended
+ #### Recommended
    On Anaconda Prompt (Windows):
   
      conda activate "your virtual environment name"
