@@ -58,7 +58,8 @@ For installing virtual environment on Anaconda Prompt(Windows):
   
   
  ##### iii) After changing the working directory to the current repository/project create a virtual environment by using the following commands:
-     On Windows:
+ 
+ ### On Windows:
     For Visual Studio Code Users
      
      python -m venv venv 
@@ -67,7 +68,7 @@ For installing virtual environment on Anaconda Prompt(Windows):
    Here venv is the name of the environment you like to choose.
      
  
- ### Recommended
+ #### Recommended
      On Anaconda Prompt (Windows)
      
      conda create -n "your virtual environment name" python=3.6 (The code is tested and implemented in 3.6 so install python 3.6)
@@ -77,7 +78,7 @@ For installing virtual environment on Anaconda Prompt(Windows):
      
      
      
-     On Linux or Mac:
+ ### On Linux or Mac:
      python3 -m venv venv
     
      
