@@ -33,18 +33,18 @@ On Windows:
    
    
       python -m pip install --user virtualenv
+      
+## Recommended
+For installing virtual environment on Anaconda Prompt(Windows):
+
+
+       conda install -c anaconda virtualenv
    
    
 On MacOS or Linux:
   
   
       py -m pip install --user virtualenv
-     
-## Recommended
-For installing virtual environment on Anaconda Prompt(Windows):
-
-
-       conda install -c anaconda virtualenv
      
      
   ##### ii) After installing virtual environment, you have to install all the dependencies required to run this project in your virtual environment. For doing so you have to follow the following steps:
@@ -66,17 +66,20 @@ For installing virtual environment on Anaconda Prompt(Windows):
      
    Here venv is the name of the environment you like to choose.
      
-     
-     On Linux or Mac:
-     python3 -m venv venv
-     
-# Recommended
+ 
+ # Recommended
      On Anaconda Prompt (Windows)
      
      conda create -n "your virtual environment name" python=3.6 (The code is tested and implemented in 3.6 so install python 3.6)
      e.g.
      
      conda create -n facialrecognition python=3.6
+     
+     
+     
+     On Linux or Mac:
+     python3 -m venv venv
+    
      
 ##### iv) After creating a virtual environment in a working directory, you need to activate the virtual environment:
 
