@@ -29,25 +29,25 @@ For installing virtual environment on command prompt and visual studio terminal:
  For installation:
    
    
-On Windows:
+### On Windows:
    
    
       python -m pip install --user virtualenv
       
-## Recommended
+##### Recommended
 For installing virtual environment on Anaconda Prompt(Windows):
 
 
        conda install -c anaconda virtualenv
    
    
-On MacOS or Linux:
+### On MacOS or Linux:
   
   
       py -m pip install --user virtualenv
      
      
-  ##### ii) After installing virtual environment, you have to install all the dependencies required to run this project in your virtual environment. For doing so you have to follow the following steps:
+##### ii) After installing virtual environment, you have to install all the dependencies required to run this project in your virtual environment. For doing so you have to follow the following steps:
   
   
   First of all, you have to change your working directory to the location of this repository in your computer by using the following command:
@@ -57,7 +57,7 @@ On MacOS or Linux:
         e.g cd E:/Attendance_system_using_face_recognition/ (location to the repository in local computer)
   
   
-  #### iii) After changing the working directory to the current repository/project create a virtual environment by using the following commands:
+ ##### iii) After changing the working directory to the current repository/project create a virtual environment by using the following commands:
      On Windows:
     For Visual Studio Code Users
      
@@ -67,7 +67,7 @@ On MacOS or Linux:
    Here venv is the name of the environment you like to choose.
      
  
- # Recommended
+ ### Recommended
      On Anaconda Prompt (Windows)
      
      conda create -n "your virtual environment name" python=3.6 (The code is tested and implemented in 3.6 so install python 3.6)
@@ -90,7 +90,7 @@ On MacOS or Linux:
        venv\Scripts\activate
        
  
- # Recommended
+ ### Recommended
    On Anaconda Prompt (Windows):
   
      conda activate "your virtual environment name"
